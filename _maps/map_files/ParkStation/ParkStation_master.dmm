@@ -558,6 +558,9 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/large,
 /area/station/service/hydroponics)
+"fCz" = (
+/turf/closed/wall,
+/area/station/security)
 "fFY" = (
 /turf/open/floor/iron/chapel{
 	dir = 6
@@ -588,6 +591,10 @@
 /obj/item/reagent_containers/condiment/sugar,
 /turf/open/floor/iron/kitchen,
 /area/station/service/hydroponics)
+"gdx" = (
+/obj/structure/rack,
+/turf/open/floor/iron/smooth,
+/area/station/maintenance)
 "glG" = (
 /obj/machinery/button/curtain{
 	pixel_y = 0;
@@ -607,6 +614,12 @@
 /obj/machinery/door/airlock/grunge{
 	name = "Cell 5";
 	id_tag = "Cell5Privacy"
+	},
+/turf/open/floor/iron/smooth,
+/area/station/maintenance)
+"gsP" = (
+/obj/structure/sign/gym{
+	pixel_y = 32
 	},
 /turf/open/floor/iron/smooth,
 /area/station/maintenance)
@@ -1074,11 +1087,8 @@
 /turf/open/floor/iron,
 /area/station/service/hydroponics)
 "jAr" = (
-/obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement{
-	dir = 8
-	},
-/turf/open/floor/wood/large,
+/obj/structure/weightmachine/stacklifter,
+/turf/open/floor/iron/smooth,
 /area/space)
 "jBk" = (
 /obj/structure/table/wood/fancy/red,
@@ -1874,10 +1884,8 @@
 /turf/open/floor/wood/large,
 /area/station/medical/medbay)
 "pLd" = (
-/obj/structure/chair/comfy/brown{
-	dir = 8
-	},
-/turf/open/floor/wood/large,
+/obj/structure/rack,
+/turf/open/floor/iron/smooth,
 /area/space)
 "pQE" = (
 /obj/structure/sink/directional/west,
@@ -2231,6 +2239,14 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"sRB" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole/bookmanagement{
+	dir = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/wood/large,
+/area/space)
 "sSi" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syringes{
@@ -2323,12 +2339,11 @@
 /turf/open/floor/carpet/royalblack,
 /area/station/maintenance)
 "tJZ" = (
-/obj/structure/chair/comfy/brown{
-	buildstackamount = 0;
-	dir = 1
+/obj/structure/sign/gym/right{
+	pixel_y = 32
 	},
-/turf/open/floor/wood/large,
-/area/space)
+/turf/open/floor/iron/smooth,
+/area/station/maintenance)
 "tMD" = (
 /obj/effect/turf_decal/tile/dark_green/anticorner/contrasted{
 	dir = 1
@@ -2801,6 +2816,10 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/service/hydroponics)
+"wPJ" = (
+/obj/structure/weightmachine/weightlifter,
+/turf/open/floor/iron/smooth,
+/area/space)
 "wSk" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/smooth_large,
@@ -19987,10 +20006,10 @@ cOq
 cOq
 cOq
 cOq
-cOq
-cOq
-cOq
-cOq
+jjf
+jjf
+jjf
+jjf
 jjf
 jjf
 jjf
@@ -20243,12 +20262,12 @@ cOq
 cOq
 cOq
 cOq
+cOq
 jjf
-jjf
-jjf
-jjf
-jjf
-jjf
+sRB
+obu
+pjm
+cFX
 cIX
 vVL
 eVI
@@ -20500,12 +20519,12 @@ cOq
 cOq
 cOq
 cOq
+cOq
 jjf
-pjm
-tJZ
-obu
-pjm
-cFX
+oFn
+vVL
+oFn
+vVL
 ufL
 vVL
 eVI
@@ -20757,11 +20776,11 @@ cOq
 cOq
 cOq
 cOq
+cOq
 jjf
-pLd
+ihx
 vVL
 vVL
-oFn
 vVL
 vVL
 vVL
@@ -21014,9 +21033,9 @@ cOq
 cOq
 cOq
 cOq
+cOq
 jjf
-ihx
-ihx
+dpP
 vVL
 vVL
 vVL
@@ -21272,16 +21291,16 @@ cOq
 cOq
 cOq
 jjf
-jAr
-dpP
 jjf
 jjf
+jjf
+mcL
 mKh
 mKh
 vVL
 mKh
 mKh
-jjf
+mcL
 jjf
 cOq
 cOq
@@ -21528,19 +21547,19 @@ cOq
 cOq
 cOq
 cOq
-jjf
-jjf
-jjf
-jjf
-rhk
-rhk
-rhk
-rhk
-rhk
 rhk
 rhk
 jjf
 cOq
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+jjf
 cOq
 cOq
 cOq
@@ -21785,19 +21804,19 @@ cOq
 cOq
 cOq
 cOq
-cOq
-cOq
-cOq
-jjf
-rhk
-rhk
-rhk
-rhk
-rhk
 rhk
 rhk
 jjf
 cOq
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+rhk
+mcL
 cOq
 cOq
 cOq
@@ -22037,15 +22056,15 @@ cOq
 cOq
 cOq
 cOq
+cOq
+cOq
+cOq
+cOq
+cOq
+rhk
+rhk
 jjf
-jjf
-jjf
-jjf
-jjf
-jjf
-jjf
-jjf
-jjf
+cOq
 rhk
 tcE
 ryd
@@ -22053,10 +22072,10 @@ nvy
 mGz
 eXf
 rhk
-jjf
+rhk
+rhk
 cOq
-cOq
-cOq
+pLd
 cOq
 cOq
 cOq
@@ -22295,14 +22314,14 @@ cOq
 cOq
 cOq
 jjf
-kmZ
-lvF
-lvF
-lvF
-lvF
-hSR
-eqY
-dLH
+jjf
+jjf
+jjf
+jjf
+jjf
+jjf
+jjf
+cOq
 rhk
 tcE
 ixy
@@ -22310,10 +22329,10 @@ kWO
 oQV
 eXf
 rhk
-jjf
-xrI
-xrI
-xrI
+rhk
+vQw
+ooD
+gdx
 ooD
 ooD
 ooD
@@ -22552,14 +22571,14 @@ cOq
 cOq
 cOq
 jjf
-lfa
+kmZ
 lvF
 lvF
-aXS
 lvF
-wol
+lvF
+hSR
 eqY
-cui
+dLH
 rhk
 tcE
 iQw
@@ -22567,10 +22586,10 @@ iQw
 iQw
 eXf
 rhk
-jjf
-fnZ
-fnZ
+rhk
 xrI
+ooD
+ooD
 ooD
 ooD
 ooD
@@ -22809,14 +22828,14 @@ cOq
 cOq
 cOq
 jjf
-wCM
+lfa
 lvF
 lvF
-pHH
+aXS
 lvF
-lvF
-lvF
-lvF
+wol
+eqY
+cui
 rhk
 tcE
 mSh
@@ -22824,10 +22843,10 @@ rxF
 mSh
 eXf
 rhk
-rhk
-fnZ
-fnZ
+cOq
 xrI
+ooD
+ooD
 ooD
 ooD
 ooD
@@ -23066,14 +23085,14 @@ cOq
 cOq
 cOq
 jjf
-nRo
+wCM
 lvF
 lvF
-rrK
+pHH
 lvF
-hSR
-eqY
-dLH
+lvF
+lvF
+lvF
 rhk
 tcE
 iQw
@@ -23081,10 +23100,10 @@ iQw
 iQw
 eXf
 rhk
-jjf
-fnZ
-fnZ
+jAr
 xrI
+ooD
+ooD
 ooD
 ooD
 ooD
@@ -23323,26 +23342,26 @@ cOq
 cOq
 cOq
 jjf
-nHa
+nRo
 lvF
 lvF
-vbL
+rrK
 lvF
-wol
+hSR
 eqY
-cui
+dLH
 rhk
 tcE
 cwe
 hzQ
 iWL
 dPP
-jjf
-jjf
-xrI
-xrI
+rhk
+rhk
 xrI
 ooD
+ooD
+gsP
 ooD
 ooD
 ooD
@@ -23580,26 +23599,26 @@ cOq
 cOq
 cOq
 jjf
-jjf
-loE
-hkp
-jjf
-jjf
-jjf
-jjf
-jjf
+nHa
+lvF
+lvF
+vbL
+lvF
+wol
+eqY
+cui
 rhk
 tcE
 hCQ
 sOP
 hGG
 bGJ
-jjf
-cOq
+rhk
+wPJ
+xrI
 ooD
 ooD
-ooD
-ooD
+tJZ
 ooD
 ooD
 ooD
@@ -23836,15 +23855,10 @@ cOq
 cOq
 cOq
 cOq
-cOq
 jjf
 jjf
-jjf
-jjf
-cOq
-cOq
-cOq
-jjf
+loE
+hkp
 jjf
 jjf
 jjf
@@ -23852,8 +23866,13 @@ jjf
 jjf
 jjf
 jjf
-cOq
-ooD
+jjf
+jjf
+jjf
+jjf
+jjf
+jjf
+xrI
 ooD
 ooD
 ooD
@@ -85785,10 +85804,10 @@ xzd
 xzd
 xzd
 kce
-jjf
+mcL
 uzM
 uzM
-jjf
+mcL
 eiU
 epk
 eoH
@@ -86042,14 +86061,14 @@ igj
 igj
 igj
 atc
-jjf
+mcL
 lWb
 nka
 cUa
 nka
 epk
-xrI
-xrI
+vQw
+vQw
 xrI
 bJt
 bJt
@@ -86299,10 +86318,10 @@ igj
 igj
 igj
 hmY
-jjf
+mcL
 tBD
 tBD
-jjf
+mcL
 eiU
 epk
 eoH
@@ -86556,10 +86575,10 @@ igj
 igj
 igj
 wxl
-jjf
-jjf
-jjf
-jjf
+mcL
+mcL
+mcL
+mcL
 nka
 wqT
 xrI
@@ -86813,12 +86832,12 @@ mKh
 mKh
 uvf
 mKh
-jjf
+mcL
 rhk
 rhk
-jjf
+mcL
 aGS
-xrI
+vQw
 xrI
 bJt
 bJt
@@ -87320,10 +87339,10 @@ vXM
 vXM
 vXM
 jjf
-jjf
-jjf
-jjf
-jjf
+mcL
+mcL
+mcL
+mcL
 uXm
 mfv
 gON
@@ -87837,7 +87856,7 @@ xrI
 fnZ
 fnZ
 fnZ
-xrI
+vQw
 hUs
 gTb
 lJR
@@ -87847,7 +87866,7 @@ lJR
 lJR
 rfB
 hUs
-xrI
+vQw
 fnZ
 fnZ
 fnZ
@@ -88091,10 +88110,10 @@ bJt
 bJt
 bJt
 xrI
-xrI
-xrI
-xrI
-xrI
+vQw
+vQw
+vQw
+vQw
 hUs
 gTb
 lJR
@@ -88104,10 +88123,10 @@ lJR
 lJR
 rfB
 hUs
-xrI
-xrI
-xrI
-xrI
+vQw
+vQw
+vQw
+vQw
 xrI
 bJt
 xrI
@@ -88608,7 +88627,7 @@ xrI
 fnZ
 fnZ
 fnZ
-xrI
+vQw
 hUs
 gTb
 lJR
@@ -88618,7 +88637,7 @@ lJR
 lJR
 rfB
 hUs
-xrI
+vQw
 fnZ
 fnZ
 fnZ
@@ -88875,10 +88894,10 @@ kIo
 lJR
 rfB
 hUs
-xrI
-tPT
-tPT
-tPT
+vQw
+fCz
+fCz
+fCz
 tPT
 cWX
 cWX
@@ -89389,7 +89408,7 @@ xrI
 xFw
 sVM
 fnZ
-xrI
+vQw
 bTr
 bTr
 bTr
